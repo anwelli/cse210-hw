@@ -15,9 +15,9 @@ namespace MindfulnessProgram
             while (true)
             {
                 Console.WriteLine("Menu:");
-                Console.WriteLine("1. Breathing Activity");
-                Console.WriteLine("2. Reflection Activity");
-                Console.WriteLine("3. Listening Activity");
+                Console.WriteLine("1. Start Breathing Activity");
+                Console.WriteLine("2. Start Reflection Activity");
+                Console.WriteLine("3. Start Listening Activity");
                 Console.WriteLine("4. End Program");
                 Console.Write("Enter your choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
